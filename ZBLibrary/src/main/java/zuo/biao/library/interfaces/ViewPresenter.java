@@ -14,7 +14,11 @@ limitations under the License.*/
 
 package zuo.biao.library.interfaces;
 
+import android.app.Activity;
+import android.support.annotation.LayoutRes;
 import android.support.annotation.Nullable;
+
+import zuo.biao.library.ui.TopTabView;
 
 /**View的逻辑接口
  * @author Lemon
@@ -39,5 +43,6 @@ public interface ViewPresenter {
 	 */
 	@Nullable
 	public String getForwardName();
+
 
 }
